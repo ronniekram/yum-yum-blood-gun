@@ -1,6 +1,15 @@
-import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
+import type { AppProps } from "next/app";
+
+import GlobalStyles from "@/styles/global";
+import { alte } from "@/utils/fonts";
 
 export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
-}
+  return (
+    <>
+      <GlobalStyles />
+      <main className={`${alte.variable}`}>
+        <Component {...pageProps} />
+      </main>
+    </>
+  );
+};
