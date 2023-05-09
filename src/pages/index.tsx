@@ -5,6 +5,7 @@ import "twin.macro";
 
 import { Static } from "@/components/glitch";
 import Copy from "@/components/copy";
+import Offering from "@/components/offering";
 
 const Glitch = dynamic(() => import(`../components/glitch`));
 
@@ -18,6 +19,7 @@ export default function Home() {
       </section>
     </div>
     <Copy />
+    <Offering />
     </>
   );
 }
