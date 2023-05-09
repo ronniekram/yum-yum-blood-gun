@@ -4,6 +4,7 @@ import dynamic from "next/dynamic";
 import "twin.macro";
 
 import { Static } from "@/components/glitch";
+import Copy from "@/components/copy";
 
 const Glitch = dynamic(() => import(`../components/glitch`));
 
@@ -16,6 +17,7 @@ export default function Home() {
         <Glitch />
       </section>
     </div>
+    <Copy />
     </>
   );
 }
