@@ -14,5 +14,26 @@ export const alte = localFont({
       style: "normal",
     },
   ],
-  variable: `--sans`,
+  variable: "--sans",
+});
+
+export const built = localFont({
+  src: [
+    {
+      path: "../../public/fonts/built-tilting/regular.otf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../../public/fonts/built-tilting/semi-bold.otf",
+      weight: "600",
+      style: "normal",
+    },
+    {
+      path: "../../public/fonts/built-tilting/bold.otf",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+  variable: "--tilting",
 });

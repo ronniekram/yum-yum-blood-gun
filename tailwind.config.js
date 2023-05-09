@@ -8,26 +8,12 @@ module.exports = {
       colors: {
         current: `currentColor`,
         transparent: `transparent`,
-        black: `black`,
-        white: `white`,
-        grey: `#32312F`,
-        orange: {
-          100: `#FDF0ED`,
-          200: `#E95C32`,
-          300: `#A63411`,
-        },
-        blue: {
-          100: `#EFF5FB`,
-          200: `#387FCA`,
-          300: `#225588`,
-        },
-        green: {
-          100: `#FBF5EB`,
-          200: `#C7B94A`,
-          300: `#A0B034`,
-          400: `#819E3B`,
-          500: `#1F4328`,
-          600: `#132A19`,
+        black: `#1F1F1F`,
+        white: `#F5F5F5`,
+        red: {
+          100: `#FF3333`,
+          200: `#EA2424`,
+          300: `#823333`,
         },
       },
       fontSize: {
@@ -60,7 +46,7 @@ module.exports = {
       },
       fontFamily: {
         sans: [`var(--sans)`, ...fontFamily.sans],
-        display: [`var(--display)`, ...fontFamily.display],
+        display: [`var(--tilting)`],
       },
     },
   },
