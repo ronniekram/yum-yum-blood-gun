@@ -17,7 +17,7 @@ const Offering = () => (
     <Wrapper tw="flex flex-col space-y-6 md:(flex-row space-y-0 justify-between) lg:(items-end) xl:(space-x-6)">
       <div tw="flex flex-col space-y-6 lg:(space-y-4 lg:(self-start))">
         <H2>Pain is an offering;</H2>
-        <div tw="md:(hidden)">
+        <div tw="max-w-[20.9375rem] mx-auto md:(hidden)">
           <Image src="/images/logo.png" width={563} height={578} loading="lazy" alt="YumYum Bloodgun logo" />
         </div>
         <H2>Death is a gift.</H2>

@@ -160,7 +160,7 @@ const Section = styled.section`
 const Privacy: NextPage = () => {
   return (
     <div tw="w-full bg-black text-white pb-20 font-sans md:(pb-28) xl:(pb-40)">
-      <article tw="w-full mx-auto flex flex-col px-5 md:(w-[79%] px-0) xl:(w-[65%])">
+      <article tw="w-full mx-auto max-w-[61.625rem] flex flex-col px-5 md:(w-[79%] px-0) xl:(w-[65%])">
         <h1 tw="text-center text-[40px] font-bold py-5 md:(text-6xl py-8) xl:(text-7xl)">Privacy Policy</h1>
         <p tw="py-1 text-sm italic md:(text-base) xl:(text-lg)">Last Updated: May 8, 2023</p>
         <div tw="w-full flex flex-col pt-6 space-y-14 xl:(pt-16)">

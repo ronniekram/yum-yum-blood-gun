@@ -34,8 +34,8 @@ const Icon = ({ name }: { name: `twitter` | `twitch` }) => {
 
 const Footer = () => (
   <footer tw="w-full bg-black text-white pt-12 pb-6 md:(pt-16 pb-8) lg:(pt-20 pb-12)">
-    <Wrapper tw="flex flex-col items-center space-y-12 md:(flex-row-reverse justify-between space-y-0 h-[9.375rem])">
-      <div tw="w-full max-w-[23rem] flex flex-col space-y-8 md:(h-full justify-between space-y-0)">
+    <Wrapper tw="flex flex-col space-y-12 md:(flex-row-reverse justify-between space-y-0 h-[9.375rem])">
+      <div tw="w-full max-w-[23rem] flex flex-col space-y-8 justify-start md:(h-full justify-between space-y-0)">
         <Newsletter />
         <div tw="flex space-x-4">
           <Icon name="twitch" />
