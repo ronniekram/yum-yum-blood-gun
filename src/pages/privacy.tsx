@@ -152,6 +152,8 @@ const Section = styled.section`
 
   a {
     ${tw`font-semi underline`};
+    ${tw`transition duration-300 ease-in-out`};
+    ${tw`hover:(text-red-200)`};
   }
 `;
 
