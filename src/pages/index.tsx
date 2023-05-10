@@ -12,10 +12,12 @@ export default function Home() {
     <>
     <div tw="bg-black w-full flex justify-center h-[18.75rem] lg:(h-[25rem]) xl:(h-[32.8125rem]) 2xl:(h-[40rem])">
       <section tw="relative w-full h-[fit-content] flex justify-center">
-        <div tw="absolute z-[-1]">
+        <div tw="absolute z-[0]">
           <Static />
         </div>
-        <Glitch />
+        <div tw="relative z-[1]">
+          <Glitch />
+        </div>
       </section>
     </div>
     <Copy />
