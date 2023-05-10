@@ -4,6 +4,7 @@ import { DefaultSeo } from "next-seo";
 import "twin.macro";
 
 import Header from "@/components/header";
+import Footer from "@/components/footer";
 import GlobalStyles from "@/styles/global";
 import { alte, built } from "@/utils/fonts";
 
@@ -17,9 +18,10 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
       <DefaultSeo {...config} />
       <GlobalStyles />
-      <main className={`${alte.variable} ${built.variable}`} tw="w-screen min-h-screen flex flex-col overflow-hidden antialiased">
+      <main className={`${alte.variable} ${built.variable}`} tw="w-screen min-h-screen bg-black flex flex-col overflow-hidden antialiased">
         <Header />
         <Component {...pageProps} />
+        <Footer />
       </main>
     </>
   );
