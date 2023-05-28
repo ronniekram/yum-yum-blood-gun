@@ -1,6 +1,6 @@
 import Link from "next/link";
 import tw, { styled } from "twin.macro";
-import { FiTwitter, FiTwitch } from "react-icons/fi";
+import { FiTwitter, FiTwitch, FiMail } from "react-icons/fi";
 
 import Newsletter from "./newsletter";
 import { Wrapper } from "@/styles/common";
@@ -20,13 +20,18 @@ const linkStyle = [
   tw`xl:(text-[56px] leading-[56px])`,
 ];
 
-const Icon = ({ name }: { name: `twitter` | `twitch` }) => {
+const Icon = ({ name }: { name: `twitter` | `twitch` | `mail` }) => {
   return name === `twitter` ? (
-    <A href="https://twitter.com/goblindelight" target="_blank" rel="noreferrer">
+    <A href="https://twitter.com/goblindelight" target="_blank" rel="noreferrer" aria-label="Twitter">
       <FiTwitter size="24" />
     </A>
-  ) : (
-    <A href="https://twitch.tv/cobgoblin" target="_blank" rel="noreferrer">
+  ) : name=== `mail` ? (
+    <A href="mailto:press@goblindelight.com" target="_blank" rel="noreferrer" aria-label="Press Email">
+      <FiMail size={24} />
+    </A>
+  ) :
+  (
+    <A href="https://twitch.tv/cobgoblin" target="_blank" rel="noreferrer" aria-label="Twitch">
       <FiTwitch size="24" />
     </A>
   );
@@ -40,6 +45,7 @@ const Footer = () => (
         <div tw="flex space-x-4">
           <Icon name="twitch" />
           <Icon name="twitter" />
+          <Icon name="mail" />
         </div>
       </div>
 

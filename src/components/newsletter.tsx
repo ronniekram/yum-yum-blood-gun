@@ -33,7 +33,7 @@ const Newsletter = () => (
               Email Address
               <span className="asterisk">*</span>
             </label>
-            <Input type="email" defaultValue="" name="EMAIL" className="required email" id="mce-EMAIL" required placeholder="bloodgun@yumyum.cool" />
+            <Input type="email" defaultValue="" name="EMAIL" className="required email" id="mce-EMAIL" required placeholder="press@goblindelight.com" />
             <span id="mce-EMAIL-HELPERTEXT" className="helper_text"></span>
             {/* SUBMIT BUTTON  */}
             <Submit type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" className="button" />
