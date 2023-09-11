@@ -11,6 +11,8 @@ const Submit = styled.input`
   ${tw`font-display font-bold text-xl leading-[20px]`};
   ${tw`text-white bg-red-300`};
   ${tw`px-5 py-[7px] md:(py-2 px-6) lg:(px-8)`};
+  ${tw`cursor-pointer transition duration-300 ease-in-out`};
+  ${tw`hover:(bg-red-200)`};
 `;
 
 const Input = styled.input`
@@ -19,15 +21,16 @@ const Input = styled.input`
   ${tw`w-full h-[2.125rem] flex items-center`};
   ${tw`md:(h-[2.25rem])`};
   ${tw`placeholder:(text-black/75)`};
+  ${tw`focus:(outline-2 outline-red-200 ring-0)`};
 `;
 
 const Newsletter = () => (
     <div id="mc_embed_signup">
-      <h2 tw="text-white text-base leading-[19px] font-sans mb-2.5">Sign up to receive news and updates.</h2>
+      <h2 tw="text-white text-lg leading-[19px] font-sans font-bold mb-2.5">Sign up for early access to the beta</h2>
       <form action="https://cool.us21.list-manage.com/subscribe/post?u=69bab77e63d33f032409a7ebb&amp;id=a6eeade60f&amp;f_id=00a6b6e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank">
         <div id="mc_embed_signup_scroll">
 
-          <Wrapper className="mc-field-group">
+          <Wrapper className="mc-field-group" id="beta-ea">
             {/* EMAIL FIELD  */}
             <label htmlFor="mce-EMAIL" tw="hidden" aria-label="Email Address">
               Email Address

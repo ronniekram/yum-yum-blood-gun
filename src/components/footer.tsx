@@ -15,7 +15,7 @@ const A = styled.a`
 
 const linkStyle = [
   tw`text-[44px] leading-[44px] text-red-100 font-display font-semi`,
-  tw`transition duration-300 ease-in-out`,
+  tw`transition duration-300 ease-in-out w-fit`,
   tw`hover:(text-red-300)`,
   tw`xl:(text-[56px] leading-[56px])`,
 ];
