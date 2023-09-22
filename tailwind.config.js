@@ -15,6 +15,9 @@ module.exports = {
           200: `#EA2424`,
           300: `#823333`,
         },
+        blue: {
+          100: `#4DAEFF`,
+        },
       },
       fontSize: {
         "2xs": [`11px`, `14.3px`],
