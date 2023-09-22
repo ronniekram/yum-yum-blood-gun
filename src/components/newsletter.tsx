@@ -10,6 +10,7 @@ const Wrapper = styled.div`
 const Submit = styled.input`
   ${tw`font-display font-bold text-xl leading-[20px]`};
   ${tw`text-white bg-red-300`};
+  ${tw`rounded-none`};
   ${tw`px-5 py-[7px] md:(py-2 px-6) lg:(px-8)`};
   ${tw`cursor-pointer transition duration-300 ease-in-out`};
   ${tw`hover:(bg-red-200)`};
@@ -17,6 +18,7 @@ const Submit = styled.input`
 
 const Input = styled.input`
   ${tw`bg-white text-black font-sans`};
+  ${tw`rounded-none`};
   ${tw`leading-[19px] px-4`};
   ${tw`w-full h-[2.125rem] flex items-center`};
   ${tw`md:(h-[2.25rem])`};

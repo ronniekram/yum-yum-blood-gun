@@ -18,6 +18,7 @@ const Inner = styled.div`
 
 const Input = styled.input`
   ${tw`bg-white text-black w-full`};
+  ${tw`rounded-none`};
   ${tw`px-2.5 flex items-center`};
   ${tw`font-sans text-sm xl:(text-lg)`};
   ${tw`placeholder:(text-black/75)`};
@@ -26,6 +27,7 @@ const Input = styled.input`
 
 const Submit = styled.input`
   ${tw`bg-red-200 text-white`};
+  ${tw`rounded-none`};
   ${tw`w-fit px-8 py-1`};
   ${tw`font-display font-bold text-lg xl:(text-xl)`};
   ${tw`border-l-[1.25px] border-black`};
