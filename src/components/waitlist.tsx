@@ -44,7 +44,7 @@ const Waitlist = () => {
     <Wrapper>
       <Inner>
         <div
-          // tw="w-full md:(w-[57%]) xl:(w-[60%])"
+        // tw="w-full md:(w-[57%]) xl:(w-[60%])"
         >
           <Image
             src="/images/waitlist.png"
@@ -65,13 +65,12 @@ const Waitlist = () => {
           <p tw="sr-only">Sign up for the early access beta waitlist!</p>
           <Input
             type="email"
-            defaultValue=""
+            // defaultValue=""
             name="EMAIL"
             className="required email"
             id="mce-EMAIL"
             required
             placeholder="press@goblindelight.com"
-            autoFocus
           />
           <Submit
             type="submit"
