@@ -7,19 +7,16 @@ const Copy = () => (
   <section tw="w-full bg-black py-10 md:(py-12)">
     <Wrapper tw="flex flex-col items-center space-y-5 md:(space-y-9)">
       <div tw="flex flex-col items-center space-y-5 md:(space-y-9) xl:(flex-row space-x-2.5)">
-        <div tw="xl:(w-[46%])">
+        <div tw="xl:(w-[44%])">
           <p tw="font-sans font-bold text-white text-sm leading-[24px] md:(text-lg leading-[28px]) lg:(text-2xl)">
-            <span tw="font-display text-lg text-red-100 md:(text-xl) lg:(text-3xl)">YUM YUM BLOODGUN</span> is a fast-paced, 2-player fighting game that merges high skill combat with roguelike deckbuilder mechanics, in which you build your character as you fight.
+            Shoot, parry, and slash your way to self-awareness in a glitched-out Alchemy-punk setting in Yum Yum Bloodgun, a tactical, 1v1 fighting game with roguelike deck-builder mechanics, where you build your character as you fight and can steal gear from your opponent when you beat them in PvP.
           </p>
           <div tw="xl:(hidden)">
             <Image src="/images/gifs/character-promo.gif" width={1232} height={686} alt="Pixelated character from YumYum Bloodgun" loading="lazy" />
           </div>
-          <p tw="font-sans font-bold text-white text-sm leading-[24px] mt-5 md:(text-base mt-9) lg:(text-xl)">
-            Shoot, parry, and slash your way to victory in a unique Alchemypunk setting -- when you fall, modify your moveset with powerups and jump into the next round.
-          </p>
         </div>
         <div tw="hidden xl:(flex -mr-16 w-[53%]) 2xl:(-mr-24)">
-            <Image src="/images/gifs/character-promo.gif" width={1232} height={686} alt="Pixelated character from YumYum Bloodgun" loading="lazy" />
+          <Image src="/images/gifs/character-promo.gif" width={1232} height={686} alt="Pixelated character from YumYum Bloodgun" loading="lazy" />
         </div>
       </div>
       <p tw="font-sans font-bold text-white text-sm leading-[24px] md:(text-base) lg:(text-xl px-10) xl:(px-16 pt-12 pb-20)">
