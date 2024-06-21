@@ -9,7 +9,7 @@ const Copy = () => (
       <div tw="flex flex-col items-center space-y-5 md:(space-y-9) xl:(flex-row space-x-2.5)">
         <div tw="xl:(w-[44%])">
           <p tw="font-sans font-bold text-white text-sm leading-[24px] md:(text-lg leading-[28px]) lg:(text-2xl)">
-            Shoot, parry, and slash your way to self-awareness in a glitched-out Alchemy-punk setting in Yum Yum Bloodgun, a tactical, 1v1 fighting game with roguelike deck-builder mechanics, where you build your character as you fight and can steal gear from your opponent when you beat them in PvP.
+            Shoot, parry, and slash your way to self-awareness in the alchemy-infused dystopia of Yum Yum Bloodgun, a 2D fighting game with deckbuilding mechanics and wild art — featuring high-stakes duels and highly customizable fighters.
           </p>
           <div tw="xl:(hidden)">
             <Image src="/images/gifs/character-promo.gif" width={1232} height={686} alt="Pixelated character from YumYum Bloodgun" loading="lazy" />
